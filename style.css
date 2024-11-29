@@ -1,0 +1,75 @@
+body{
+font-family: "Faculty Glyphic", sans-serif; 
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  backgrounda-attachment: fixed;
+  color: white;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px black;
+  font-size: 35px;
+  text-align:center;
+  display: flex;
+  flex-difection: column;
+}
+
+img{
+  max-width:90%
+}
+
+footer{
+  font-family: "Lora", serif;
+  font-size: 20px;
+  padding: 10px;
+  text-alingn: center;
+  
+  
+}
+
+.nomelink{
+ text-decoration:none;
+  color: white;
+  
+}
+.nomelink:hover{
+  color:lightblue;
+  text-decoration: underline;
+  font-weigt: 300;
+}
+
+button{
+   font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  background-color: lightblue;
+  border: 1px solid white;
+  color: white;
+  margin: 20px;
+  border-radius: 200px;
+  padding: 15px;
+  text-sadow: 1px 2px 2px black
+    
+    
+}
+
+
+button:hover{
+  background-color: blue;
+  border: 1px solid white;
+  font-weight: 800;
+  color: white;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+  padding: 1em;
+}
+.passo{
+  display: none;
+  
+}
+
+.passo.ativo{
+  display: block;
+}

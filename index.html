@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class= "passo ativo" id= "passo-0">
+       <img src="logo.png" > 
+        <p>A Aventura de Carlos: O Caminho para a Riqueza
+
+Você é Carlos, um jovem sonhador que vive em um barraco perto da praia. A vida não é fácil; você vende água para turistas e sonha em ficar rico. Um dia, enquanto observa as ondas, uma ideia genial surge em sua mente: "Eu preciso de um novo negócio!" O que você vai fazer?
+   </p>
+     <button class ="proximo" data-proximo="1">"Máquina do Frio", uma engenhoca que vende refrescos gelados.
+  </button>
+       
+       <button class= "proximo" data-proximo="1">Vender picolés gourmet feitos de frutas congeladas.
+  </button>
+        
+      </div>
+      <div class= "passo" id= "passo-1">
+       <img src="logo.png" > 
+        <p>
+         
+Você trabalha duro para montar sua "Máquina do Frio". Após várias tentativas, consegue criar um dispositivo que promete refrescar os turistas. Agora, você precisa se destacar da concorrência.
+   </p>
+     <button class ="proximo" data-proximo="3">Fazer cartazes engraçados com Garoto, seu gato, como "garoto-propaganda".
+  </button>
+       
+       <button class= "proximo" data-proximo="4">"Comleve dois!" para atrair mais clientes.
+
+  </button>
+        
+      </div>
+      
+      
+      
+      <div class="passo" id="passo-2">
+        <img src="logo.png" > 
+        <p>
+          Você começa a preparar picolés gourmet usando frutas frescas e ingredientes exóticos. Os turistas ficam curiosos, mas você precisa de uma estratégia para aumentar suas vendas.
+          
+          
+        </p>
+        
+        <button class="proximo" data-proximo="5">
+          
+          Fazer uma degustação grátis na praia.
+          
+        </button>
+          
+          
+          <button class = "proximo" data-proximo="6">
+            Trazer uma banda de música local para animar o ambiente.
+            
+        </button>
+      </div>
+      <div class="passo" id="passo-5">
+        <img src="logo.png" > 
+        <p>
+          A degustação grátis atrai uma multidão de turistas. Todos querem experimentar seus picolés. Entretanto, a concorrência também aumenta.
+          
+        </p>
+        
+        <button class="proximo" data-proximo="7">
+          
+          Criar uma competição de quem come o picolé mais rápido.
+          
+        </button>
+          
+          
+          <button class = "proximo" data-proximo="8">
+            
+            Aumentar o estoque e oferecer um desconto especial para compras em grupo.
+        </button>
+      </div>
+      <div class="passo" id="passo-6">
+        <img src="perdeu.png" > 
+        <p>
+          Trazer uma banda de música local é um sucesso, mas o custo é alto e você não vende o suficiente para cobrir as despesas.
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reiniciar?
+          
+        </button>
+          
+          
+          
+      </div>
+      <div class="passo" id="passo-7">
+        <img src="ganhou.png" > 
+        <p>
+          
+          
+          A competição de comer picolé rapidamente é um sucesso! As pessoas se divertem e suas vendas aumentam consideravelmente.
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reiniciar?
+          
+        </button>
+          
+          
+          
+      </div>
+      <div class="passo" id="passo-8">
+        <img src="logo.png" > 
+        <p>
+          A aventura recomeça! Agora, você tem mais experiência e pode tomar decisões mais sábias. Escolha novamente sua ideia e continue sua jornada!
+
+          
+        </p>
+        
+        <button class="proximo" data-proximo="3">
+          
+          Fazer cartazes engraçados com Garoto, seu gato, como "garoto-propaganda".pre um, Fazer cartazes engraçados com Garoto, seu gato, como "garoto-propaganda".
+          
+        </button>
+          
+          
+          <button class = "proximo" data-proximo="4">
+            
+            
+            Lançar uma promoção: "Comleve dois!" para atrair mais clientes.
+
+        </button>
+      </div>
+      <div class="passo" id="passo-4">
+        <img src="perdeu.png" > 
+        <p>
+          GANHOU! Sua perseverança e criatividade finalmente pagam, e você se torna um empreendedor de sucesso.
+
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reniciar?
+          
+        </button>
+          
+          
+          <button class = "proximo" data-proximo="8">
+            
+            Aumentar o estoque e oferecer um desconto especial para compras em grupo.
+
+        </button>
+      </div>
+      <div class="passo" id="passo-4">
+        <p>
+          A promoção "Compre um, leve dois!" atrai uma multidão. Você está tão ocupado que não percebe que seu estoque está acabando. No entanto, isso gera muitos lucros.
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reniciar?
+          
+        </button>
+          
+          
+          
+      </div>
+      <div class="passo" id="passo-10">
+        <img src="ganhou.png" > 
+        <p>
+          PERDEU! Você aprende valiosas lições sobre negócios, e isso te prepara para futuras tentativas.
+
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reniciar?
+          
+        </button>
+          
+          
+          
+      </div>
+      <div class="passo" id="passo-9">
+        <img src="perdeu.png" > 
+        <p>
+          GANHOU! Sua perseverança e criatividade finalmente pagam, e você se torna um empreendedor de sucesso.
+
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+          reniciar?
+          
+        </button>
+          
+          
+          
+      </div>
+    
+   <footer>
+     <p> jogo produzido por <a href="https://github.com/kagaviao" class="nomelink"> kauane araujo gaviao </a></p>
+    </footer>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
